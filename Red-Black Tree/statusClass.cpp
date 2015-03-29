@@ -22,7 +22,6 @@ statusClass::statusClass(LPCWSTR ClassName, LPCWSTR Title,
 	lstrcpy(szClassName, ClassName);	//윈도우 클래스 이름
 	lstrcpy(szTitle, Title);			//타이틀 바에 출력될 문자열
 	winSize = { x, y };
-
 }
 
 void statusClass::SetWindowClass(
