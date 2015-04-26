@@ -1,0 +1,25 @@
+﻿빌드 시작: 2015-04-26 오후 9:48:06
+     1>2 노드의 "D:\OneDrive\University\Github\Code-Storage\controlgame\controlgame\controlgame.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Button.cpp control_multi.cpp Lusdefine.cpp Page.cpp
+         Page.cpp
+     1>d:\onedrive\university\github\code-storage\controlgame\controlgame\page.cpp(80): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>d:\onedrive\university\github\code-storage\controlgame\controlgame\page.cpp(82): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>d:\onedrive\university\github\code-storage\controlgame\controlgame\page.cpp(90): warning C4101: 'findingPage' :참조되지 않은 지역 변수입니다.
+         Lusdefine.cpp
+     1>d:\onedrive\university\github\code-storage\controlgame\controlgame\lusdefine.cpp(20): warning C4244: '초기화 중' : 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         control_multi.cpp
+         Button.cpp
+     1>d:\onedrive\university\github\code-storage\controlgame\controlgame\button.cpp(89): warning C4390: ';' : 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OneDrive\University\Github\Code-Storage\controlgame\Debug\controlgame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OneDrive\University\Github\Code-Storage\controlgame\Debug\controlgame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OneDrive\University\Github\Code-Storage\controlgame\Debug\controlgame.lib" /MACHINE:X86 Debug\Button.obj
+         Debug\control_multi.obj
+         Debug\Lusdefine.obj
+         Debug\Page.obj
+         controlgame.vcxproj -> D:\OneDrive\University\Github\Code-Storage\controlgame\Debug\controlgame.exe
+     1>"D:\OneDrive\University\Github\Code-Storage\controlgame\controlgame\controlgame.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.57
